@@ -56,7 +56,7 @@ function checkFun() {
     setTimeout(() => {
       landImgCont.classList.remove("one");
       landImgCont.classList.add("three");
-      landingText.innerHTML = "Healthy,Oxgen";
+      landingText.innerHTML = "Bring nature indoors with our beautiful plants.";
     }, 900);
     opacityAnim();
   } else if (i === 2) {
@@ -65,6 +65,8 @@ function checkFun() {
     setTimeout(() => {
       landImgCont.classList.remove("three");
       landImgCont.classList.add("second");
+      landingText.innerHTML =
+        "Find the perfect plant for your space and style.";
     }, 900);
     opacityAnim();
   } else {
@@ -74,6 +76,7 @@ function checkFun() {
     setTimeout(() => {
       landImgCont.classList.remove("second");
       landImgCont.classList.add("one");
+      landingText.innerHTML = "We have plants for every budget and lifestyle.";
     }, 900);
     opacityAnim();
   }
